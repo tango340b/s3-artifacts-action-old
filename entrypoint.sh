@@ -2,7 +2,7 @@
 
 set -e
 
-[ -z $INPUT_AWS_S3_BUCKET_NAME ] && INPUT_AWS_S3_BUCKET_NAME="medly-dev-build-artifacts"
+[ -z $INPUT_AWS_S3_BUCKET_NAME ] && INPUT_AWS_S3_BUCKET_NAME="tango-dev-build-assets"
 [ -z $INPUT_AWS_REGION ] && INPUT_AWS_REGION="us-east-1"
 [ -z $INPUT_RESOURCE_TYPE ] && INPUT_RESOURCE_TYPE="FILE"
 
